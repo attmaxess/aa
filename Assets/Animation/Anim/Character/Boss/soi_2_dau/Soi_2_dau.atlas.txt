@@ -1,0 +1,139 @@
+
+Soi_2_dau.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball
+  rotate: false
+  xy: 280, 161
+  size: 112, 93
+  orig: 112, 93
+  offset: 0, 0
+  index: -1
+ban_tay_ngoai
+  rotate: false
+  xy: 541, 43
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1
+ban_tay_trong
+  rotate: false
+  xy: 299, 7
+  size: 60, 53
+  orig: 60, 53
+  offset: 0, 0
+  index: -1
+bap_tay_ngoai
+  rotate: false
+  xy: 167, 143
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+bap_tay_trong
+  rotate: true
+  xy: 361, 2
+  size: 69, 111
+  orig: 69, 111
+  offset: 0, 0
+  index: -1
+cam_duoi
+  rotate: false
+  xy: 217, 4
+  size: 80, 56
+  orig: 80, 56
+  offset: 0, 0
+  index: -1
+cang_chan_ngoai
+  rotate: false
+  xy: 467, 170
+  size: 70, 84
+  orig: 70, 84
+  offset: 0, 0
+  index: -1
+cang_chan_trong
+  rotate: false
+  xy: 474, 14
+  size: 65, 80
+  orig: 65, 80
+  offset: 0, 0
+  index: -1
+cang_tay_ngoai
+  rotate: true
+  xy: 415, 96
+  size: 66, 94
+  orig: 66, 94
+  offset: 0, 0
+  index: -1
+cang_tay_trong
+  rotate: true
+  xy: 539, 183
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+d
+  rotate: true
+  xy: 167, 41
+  size: 19, 44
+  orig: 19, 44
+  offset: 0, 0
+  index: -1
+dau_tren
+  rotate: false
+  xy: 313, 73
+  size: 100, 86
+  orig: 100, 86
+  offset: 0, 0
+  index: -1
+dui_chan_ngoai
+  rotate: true
+  xy: 511, 101
+  size: 67, 77
+  orig: 67, 77
+  offset: 0, 0
+  index: -1
+dui_chan_trong
+  rotate: false
+  xy: 394, 164
+  size: 71, 90
+  orig: 71, 90
+  offset: 0, 0
+  index: -1
+duoi
+  rotate: false
+  xy: 167, 62
+  size: 144, 79
+  orig: 144, 79
+  offset: 0, 0
+  index: -1
+gay
+  rotate: true
+  xy: 2, 10
+  size: 23, 193
+  orig: 23, 193
+  offset: 0, 0
+  index: -1
+mat_do
+  rotate: true
+  xy: 197, 21
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+mat_xanh
+  rotate: false
+  xy: 197, 3
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+than
+  rotate: false
+  xy: 2, 35
+  size: 163, 219
+  orig: 163, 219
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+hit_boss.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_0000_9
+  rotate: false
+  xy: 2, 694
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1
+1_0001_8
+  rotate: false
+  xy: 2, 521
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1
+1_0002_7
+  rotate: false
+  xy: 2, 348
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1
+1_0003_6
+  rotate: false
+  xy: 2, 175
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1
+1_0004_5
+  rotate: false
+  xy: 2, 2
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1
+1_0005_4
+  rotate: true
+  xy: 178, 691
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1
+1_0006_3
+  rotate: true
+  xy: 178, 515
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1
+1_0007_2
+  rotate: true
+  xy: 178, 339
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1
+1_0008_1
+  rotate: true
+  xy: 178, 163
+  size: 174, 171
+  orig: 174, 171
+  offset: 0, 0
+  index: -1

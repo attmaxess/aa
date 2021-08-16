@@ -1,0 +1,20 @@
+
+hand_tutorial.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ban tay
+  rotate: false
+  xy: 2, 14
+  size: 104, 172
+  orig: 104, 172
+  offset: 0, 0
+  index: -1
+ring_1
+  rotate: false
+  xy: 61, 3
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1

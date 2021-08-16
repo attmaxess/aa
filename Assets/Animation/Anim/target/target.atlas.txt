@@ -1,0 +1,13 @@
+
+target.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+target/PNG/circle
+  rotate: false
+  xy: 2, 2
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1

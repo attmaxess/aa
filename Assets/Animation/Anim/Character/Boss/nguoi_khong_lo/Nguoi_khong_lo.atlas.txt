@@ -1,0 +1,97 @@
+
+Nguoi_khong_lo.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bap_tay_ngoai
+  rotate: false
+  xy: 172, 117
+  size: 123, 135
+  orig: 123, 135
+  offset: 0, 0
+  index: -1
+bap_tay_trong
+  rotate: false
+  xy: 419, 124
+  size: 98, 128
+  orig: 98, 128
+  offset: 0, 0
+  index: -1
+cang_chan_trong
+  rotate: false
+  xy: 519, 160
+  size: 69, 92
+  orig: 69, 92
+  offset: 0, 0
+  index: -1
+cang_tay_ngoai
+  rotate: true
+  xy: 172, 4
+  size: 111, 124
+  orig: 111, 124
+  offset: 0, 0
+  index: -1
+cang_tay_trong
+  rotate: false
+  xy: 297, 123
+  size: 120, 129
+  orig: 120, 129
+  offset: 0, 0
+  index: -1
+dau
+  rotate: true
+  xy: 662, 170
+  size: 82, 80
+  orig: 82, 80
+  offset: 0, 0
+  index: -1
+dui_chan_ngoai
+  rotate: true
+  xy: 604, 7
+  size: 69, 77
+  orig: 69, 77
+  offset: 0, 0
+  index: -1
+dui_chan_trong
+  rotate: false
+  xy: 590, 165
+  size: 70, 87
+  orig: 70, 87
+  offset: 0, 0
+  index: -1
+ham
+  rotate: true
+  xy: 604, 78
+  size: 85, 70
+  orig: 85, 70
+  offset: 0, 0
+  index: -1
+mace
+  rotate: false
+  xy: 298, 22
+  size: 304, 99
+  orig: 304, 99
+  offset: 0, 0
+  index: -1
+mat_cuoi
+  rotate: true
+  xy: 298, 2
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+mat_nham
+  rotate: true
+  xy: 330, 3
+  size: 17, 29
+  orig: 17, 29
+  offset: 0, 0
+  index: -1
+than
+  rotate: false
+  xy: 2, 2
+  size: 168, 250
+  orig: 168, 250
+  offset: 0, 0
+  index: -1

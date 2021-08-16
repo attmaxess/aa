@@ -1,0 +1,55 @@
+
+hit_ho_nuoc.png
+size: 128,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hit_ho_nuoc/1
+  rotate: false
+  xy: 2, 308
+  size: 84, 49
+  orig: 84, 49
+  offset: 0, 0
+  index: -1
+hit_ho_nuoc/2
+  rotate: false
+  xy: 2, 257
+  size: 84, 49
+  orig: 84, 49
+  offset: 0, 0
+  index: -1
+hit_ho_nuoc/3
+  rotate: false
+  xy: 2, 206
+  size: 84, 49
+  orig: 84, 49
+  offset: 0, 0
+  index: -1
+hit_ho_nuoc/4
+  rotate: false
+  xy: 2, 155
+  size: 84, 49
+  orig: 84, 49
+  offset: 0, 0
+  index: -1
+hit_ho_nuoc/5
+  rotate: false
+  xy: 2, 104
+  size: 84, 49
+  orig: 84, 49
+  offset: 0, 0
+  index: -1
+hit_ho_nuoc/6
+  rotate: false
+  xy: 2, 53
+  size: 84, 49
+  orig: 84, 49
+  offset: 0, 0
+  index: -1
+hit_ho_nuoc/7
+  rotate: false
+  xy: 2, 2
+  size: 84, 49
+  orig: 84, 49
+  offset: 0, 0
+  index: -1

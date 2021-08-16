@@ -1,0 +1,1 @@
+{"initLevelWins":[{"level":"Level1","listEnemies":["Enemy1"],"listHoles":["Hole1","Hole2"],"listWinHoles":["Hole2"]}]}

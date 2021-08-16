@@ -1,0 +1,55 @@
+
+merge.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+meger/1
+  rotate: true
+  xy: 2, 2
+  size: 183, 267
+  orig: 183, 267
+  offset: 0, 0
+  index: -1
+meger/2
+  rotate: false
+  xy: 187, 187
+  size: 183, 267
+  orig: 183, 267
+  offset: 0, 0
+  index: -1
+meger/3
+  rotate: true
+  xy: 271, 2
+  size: 183, 267
+  orig: 183, 267
+  offset: 0, 0
+  index: -1
+meger/4
+  rotate: false
+  xy: 372, 187
+  size: 183, 267
+  orig: 183, 267
+  offset: 0, 0
+  index: -1
+meger/5
+  rotate: true
+  xy: 540, 2
+  size: 183, 267
+  orig: 183, 267
+  offset: 0, 0
+  index: -1
+meger/6
+  rotate: false
+  xy: 557, 187
+  size: 183, 267
+  orig: 183, 267
+  offset: 0, 0
+  index: -1
+meger/7
+  rotate: false
+  xy: 2, 187
+  size: 183, 267
+  orig: 183, 267
+  offset: 0, 0
+  index: -1

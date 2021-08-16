@@ -1,0 +1,97 @@
+
+khobau.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bap_tay_ngoai
+  rotate: true
+  xy: 332, 24
+  size: 85, 128
+  orig: 85, 128
+  offset: 0, 0
+  index: -1
+bap_tay_trong
+  rotate: false
+  xy: 553, 133
+  size: 81, 120
+  orig: 81, 120
+  offset: 0, 0
+  index: -1
+cang_chan_ngoai
+  rotate: false
+  xy: 177, 107
+  size: 125, 146
+  orig: 125, 146
+  offset: 0, 0
+  index: -1
+cang_chan_trong
+  rotate: true
+  xy: 462, 2
+  size: 109, 127
+  orig: 109, 127
+  offset: 0, 0
+  index: -1
+cang_tay_ngoai
+  rotate: false
+  xy: 304, 111
+  size: 111, 142
+  orig: 111, 142
+  offset: 0, 0
+  index: -1
+cang_tay_trong
+  rotate: false
+  xy: 417, 113
+  size: 134, 140
+  orig: 134, 140
+  offset: 0, 0
+  index: -1
+dau
+  rotate: true
+  xy: 183, 2
+  size: 103, 75
+  orig: 103, 75
+  offset: 0, 0
+  index: -1
+dui_chan_ngoai
+  rotate: true
+  xy: 124, 5
+  size: 60, 57
+  orig: 60, 57
+  offset: 0, 0
+  index: -1
+dui_chan_trong
+  rotate: false
+  xy: 591, 77
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+ham_duoi
+  rotate: false
+  xy: 2, 3
+  size: 120, 62
+  orig: 120, 62
+  offset: 0, 0
+  index: -1
+hong
+  rotate: true
+  xy: 260, 3
+  size: 102, 70
+  orig: 102, 70
+  offset: 0, 0
+  index: -1
+mat_do
+  rotate: false
+  xy: 332, 10
+  size: 52, 12
+  orig: 52, 12
+  offset: 0, 0
+  index: -1
+than
+  rotate: true
+  xy: 2, 67
+  size: 186, 173
+  orig: 186, 173
+  offset: 0, 0
+  index: -1

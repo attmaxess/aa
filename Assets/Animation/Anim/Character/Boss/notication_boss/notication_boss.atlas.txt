@@ -1,0 +1,48 @@
+
+notication_boss.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shape
+  rotate: false
+  xy: 2, 26
+  size: 88, 99
+  orig: 88, 99
+  offset: 0, 0
+  index: -1
+angry
+  rotate: false
+  xy: 150, 69
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+crazy
+  rotate: true
+  xy: 92, 2
+  size: 56, 58
+  orig: 56, 58
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 92, 60
+  size: 56, 65
+  orig: 56, 65
+  offset: 0, 0
+  index: -1
+hand_some
+  rotate: false
+  xy: 208, 69
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+tired
+  rotate: false
+  xy: 152, 11
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1

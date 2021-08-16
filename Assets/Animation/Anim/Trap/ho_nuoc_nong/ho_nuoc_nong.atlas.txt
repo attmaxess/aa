@@ -1,0 +1,118 @@
+
+ho_nuoc_nong.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bong_no/1_0000_14
+  rotate: false
+  xy: 2, 762
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0001_13
+  rotate: false
+  xy: 2, 660
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0002_12
+  rotate: true
+  xy: 195, 684
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0003_11
+  rotate: false
+  xy: 2, 558
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0004_10
+  rotate: true
+  xy: 195, 491
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0005_9
+  rotate: false
+  xy: 2, 389
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0006_8
+  rotate: true
+  xy: 195, 298
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0007_7
+  rotate: false
+  xy: 2, 196
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0008_6
+  rotate: true
+  xy: 195, 105
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0009_5
+  rotate: false
+  xy: 2, 3
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0010_4
+  rotate: false
+  xy: 195, 3
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0011_3
+  rotate: true
+  xy: 297, 816
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0012_2
+  rotate: true
+  xy: 297, 623
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+bong_no/1_0013_1
+  rotate: true
+  xy: 297, 430
+  size: 191, 100
+  orig: 191, 100
+  offset: 0, 0
+  index: -1
+ho_nuoc_nho
+  rotate: false
+  xy: 2, 864
+  size: 237, 143
+  orig: 237, 143
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 297, 357
+  size: 72, 71
+  orig: 72, 71
+  offset: 0, 0
+  index: -1

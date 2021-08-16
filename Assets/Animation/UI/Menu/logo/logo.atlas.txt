@@ -1,0 +1,153 @@
+
+logo.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/Logo/Z11
+  rotate: false
+  xy: 525, 222
+  size: 95, 140
+  orig: 95, 140
+  offset: 0, 0
+  index: -1
+PNG/Logo/c1
+  rotate: false
+  xy: 513, 11
+  size: 109, 141
+  orig: 109, 141
+  offset: 0, 0
+  index: -1
+PNG/Logo/c2
+  rotate: false
+  xy: 2, 69
+  size: 119, 176
+  orig: 119, 176
+  offset: 0, 0
+  index: -1
+PNG/Logo/e1
+  rotate: false
+  xy: 561, 365
+  size: 82, 140
+  orig: 82, 140
+  offset: 0, 0
+  index: -1
+PNG/Logo/e2
+  rotate: true
+  xy: 336, 59
+  size: 92, 175
+  orig: 92, 175
+  offset: 0, 0
+  index: -1
+PNG/Logo/i1
+  rotate: true
+  xy: 144, 8
+  size: 23, 140
+  orig: 23, 140
+  offset: 0, 0
+  index: -1
+PNG/Logo/i2
+  rotate: true
+  xy: 144, 33
+  size: 34, 175
+  orig: 34, 175
+  offset: 0, 0
+  index: -1
+PNG/Logo/k1
+  rotate: false
+  xy: 235, 71
+  size: 99, 178
+  orig: 99, 178
+  offset: 0, 0
+  index: -1
+PNG/Logo/k2
+  rotate: false
+  xy: 2, 247
+  size: 139, 258
+  orig: 139, 258
+  offset: 0, 0
+  index: -1
+PNG/Logo/l1
+  rotate: true
+  xy: 2, 2
+  size: 65, 140
+  orig: 65, 140
+  offset: 0, 0
+  index: -1
+PNG/Logo/l2
+  rotate: true
+  xy: 143, 251
+  size: 77, 175
+  orig: 77, 175
+  offset: 0, 0
+  index: -1
+PNG/Logo/p1
+  rotate: false
+  xy: 645, 366
+  size: 80, 139
+  orig: 80, 139
+  offset: 0, 0
+  index: -1
+PNG/Logo/p2
+  rotate: false
+  xy: 431, 154
+  size: 92, 174
+  orig: 92, 174
+  offset: 0, 0
+  index: -1
+PNG/Logo/s1
+  rotate: false
+  xy: 624, 81
+  size: 79, 140
+  orig: 79, 140
+  offset: 0, 0
+  index: -1
+PNG/Logo/s2
+  rotate: false
+  xy: 336, 153
+  size: 93, 175
+  orig: 93, 175
+  offset: 0, 0
+  index: -1
+PNG/Logo/t1
+  rotate: false
+  xy: 622, 223
+  size: 82, 140
+  orig: 82, 140
+  offset: 0, 0
+  index: -1
+PNG/Logo/t2
+  rotate: false
+  xy: 358, 330
+  size: 92, 175
+  orig: 92, 175
+  offset: 0, 0
+  index: -1
+PNG/Logo/u1
+  rotate: false
+  xy: 452, 364
+  size: 107, 141
+  orig: 107, 141
+  offset: 0, 0
+  index: -1
+PNG/Logo/u2
+  rotate: false
+  xy: 123, 69
+  size: 110, 176
+  orig: 110, 176
+  offset: 0, 0
+  index: -1
+PNG/Logo/z21
+  rotate: false
+  xy: 251, 330
+  size: 105, 175
+  orig: 105, 175
+  offset: 0, 0
+  index: -1
+PNG/Logo/z22
+  rotate: false
+  xy: 143, 330
+  size: 106, 175
+  orig: 106, 175
+  offset: 0, 0
+  index: -1

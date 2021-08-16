@@ -1,0 +1,62 @@
+
+shield.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 16
+  size: 12, 177
+  orig: 12, 177
+  offset: 0, 0
+  index: -1
+gethit/1
+  rotate: true
+  xy: 181, 7
+  size: 50, 49
+  orig: 50, 49
+  offset: 0, 0
+  index: -1
+gethit/2
+  rotate: true
+  xy: 248, 63
+  size: 75, 71
+  orig: 75, 71
+  offset: 0, 0
+  index: -1
+gethit/3
+  rotate: true
+  xy: 173, 59
+  size: 79, 73
+  orig: 79, 73
+  offset: 0, 0
+  index: -1
+gethit/4
+  rotate: false
+  xy: 288, 180
+  size: 71, 73
+  orig: 71, 73
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 173, 140
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+t
+  rotate: true
+  xy: 2, 2
+  size: 12, 103
+  orig: 12, 103
+  offset: 0, 0
+  index: -1
+weapons/shield
+  rotate: false
+  xy: 2, 30
+  size: 169, 223
+  orig: 169, 223
+  offset: 0, 0
+  index: -1

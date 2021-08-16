@@ -1,0 +1,13 @@
+
+btn_next_level.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button_next
+  rotate: false
+  xy: 2, 2
+  size: 508, 168
+  orig: 508, 168
+  offset: 0, 0
+  index: -1

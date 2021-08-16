@@ -1,0 +1,27 @@
+
+tele.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+telepot/circle
+  rotate: false
+  xy: 2, 2
+  size: 185, 86
+  orig: 185, 86
+  offset: 0, 0
+  index: -1
+telepot/d
+  rotate: false
+  xy: 189, 66
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+telepot/light
+  rotate: false
+  xy: 2, 90
+  size: 213, 159
+  orig: 213, 159
+  offset: 0, 0
+  index: -1

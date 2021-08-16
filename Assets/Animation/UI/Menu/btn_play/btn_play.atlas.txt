@@ -1,0 +1,13 @@
+
+btn_play.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button_play
+  rotate: false
+  xy: 2, 2
+  size: 426, 228
+  orig: 426, 228
+  offset: 0, 0
+  index: -1

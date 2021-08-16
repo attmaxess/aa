@@ -1,0 +1,27 @@
+
+btn-hint.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PNG/button_hint_1
+  rotate: false
+  xy: 2, 46
+  size: 139, 142
+  orig: 139, 142
+  offset: 0, 0
+  index: -1
+PNG/dau_hoi
+  rotate: true
+  xy: 47, 21
+  size: 23, 37
+  orig: 23, 37
+  offset: 0, 0
+  index: -1
+PNG/watch_video
+  rotate: false
+  xy: 2, 2
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1

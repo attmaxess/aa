@@ -1,0 +1,90 @@
+
+die.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+smoke_1/1
+  rotate: false
+  xy: 253, 206
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+smoke_1/10
+  rotate: true
+  xy: 854, 55
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+smoke_1/2
+  rotate: false
+  xy: 404, 206
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+smoke_1/3
+  rotate: true
+  xy: 555, 205
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+smoke_1/4
+  rotate: true
+  xy: 253, 55
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+smoke_1/5
+  rotate: true
+  xy: 2, 2
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+smoke_1/6
+  rotate: true
+  xy: 403, 55
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+smoke_1/7
+  rotate: false
+  xy: 553, 55
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+smoke_1/8
+  rotate: true
+  xy: 704, 54
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+smoke_1/9
+  rotate: false
+  xy: 705, 206
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+temp
+  rotate: false
+  xy: 2, 153
+  size: 249, 201
+  orig: 249, 201
+  offset: 0, 0
+  index: -1
+temp2
+  rotate: false
+  xy: 152, 10
+  size: 96, 141
+  orig: 96, 141
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+chong_go.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+exp/1_0000_7
+  rotate: false
+  xy: 484, 452
+  size: 223, 223
+  orig: 223, 223
+  offset: 0, 0
+  index: -1
+exp/1_0001_6
+  rotate: false
+  xy: 709, 452
+  size: 223, 223
+  orig: 223, 223
+  offset: 0, 0
+  index: -1
+exp/1_0002_5
+  rotate: false
+  xy: 484, 227
+  size: 223, 223
+  orig: 223, 223
+  offset: 0, 0
+  index: -1
+exp/1_0003_4
+  rotate: false
+  xy: 709, 227
+  size: 223, 223
+  orig: 223, 223
+  offset: 0, 0
+  index: -1
+exp/1_0004_3
+  rotate: false
+  xy: 2, 165
+  size: 223, 223
+  orig: 223, 223
+  offset: 0, 0
+  index: -1
+exp/1_0005_2
+  rotate: false
+  xy: 227, 110
+  size: 223, 223
+  orig: 223, 223
+  offset: 0, 0
+  index: -1
+exp/1_0006_1
+  rotate: false
+  xy: 452, 2
+  size: 223, 223
+  orig: 223, 223
+  offset: 0, 0
+  index: -1
+ham_chong
+  rotate: false
+  xy: 2, 390
+  size: 300, 285
+  orig: 300, 285
+  offset: 0, 0
+  index: -1
+ham_chong_bi_dap
+  rotate: true
+  xy: 304, 335
+  size: 340, 178
+  orig: 340, 178
+  offset: 0, 0
+  index: -1
+lap_lanh
+  rotate: false
+  xy: 934, 633
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
