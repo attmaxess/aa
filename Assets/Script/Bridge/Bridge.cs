@@ -335,6 +335,7 @@ public class Bridge : MonoBehaviour
         if (useDebug)
             Debug.Log("ShowCrossAds");
 
+        /*
         g_container = container;
         CanvasScaler canvasScaler = container.transform.GetComponentInParent<CanvasScaler>();
         float scale = 1;
@@ -350,18 +351,20 @@ public class Bridge : MonoBehaviour
             }
         }
         container.transform.localScale = Vector3.one * scale;
+        */
 
         if (container.gameObject.GetComponent<Image>() != null)
             DestroyImmediate(container.gameObject.GetComponent<Image>());
 #if BUILD
         WEcrossinstall.instance.ShowCrossAds(container, delayShow);
 #else
+        Vector3 originalScale = container.localScale;
         container.localScale = Vector3.zero;
         Image tmp = container.gameObject.AddComponent<Image>();
         tmp.type = Image.Type.Simple;
         tmp.color = new Color(0.5f, 0.5f, 0.5f, 0.5f);
-        tmp.GetComponent<RectTransform>().sizeDelta = new Vector2(139, 161);
-        container.transform.DOScale(1 * scale, 0.35f).SetEase(Ease.OutBounce).SetDelay(delayShow);
+        //tmp.GetComponent<RectTransform>().sizeDelta = new Vector2(139, 161);
+        container.transform.DOScale(originalScale, 0.35f).SetEase(Ease.OutBounce).SetDelay(delayShow);
         tmp.DOFade(1, 0.35f).SetDelay(delayShow);
 #endif
     }
