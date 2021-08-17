@@ -31,6 +31,12 @@ public class LosePopup : MonoBehaviour
     public void OnOpen()
     {
         this.gameObject.SetActive(true);
+        StartCoroutine(C_OnOpen());
+    }
+    IEnumerator C_OnOpen()
+    {
+        yield return new WaitForEndOfFrame();
+
         listButton.ForEach(s => s.GetComponent<DOTweenAnimation>().DORestartById("Display"));
         SoundManager.instance.PlayLose();
 
@@ -68,6 +74,8 @@ public class LosePopup : MonoBehaviour
         {
             crossAds.ShowCrossAds();
         }, 0.1f);
+
+        yield break;
     }
 
     private void SetIcon()

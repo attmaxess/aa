@@ -85,6 +85,11 @@ public class WinPopup : PopupBase
     public void OnOpen(bool upperIQ)
     {
         this.gameObject.SetActive(true);
+        StartCoroutine(C_OnOpen(upperIQ));
+    }
+    IEnumerator C_OnOpen(bool upperIQ)
+    {
+        yield return new WaitForEndOfFrame();
 
         if (!GameController.instance.playBeforeLastLevel &&
             GameController.instance.currentLevelID ==
@@ -152,6 +157,8 @@ public class WinPopup : PopupBase
         {
             crossAds.ShowCrossAds();
         }, 0.1f);
+
+        yield break;
     }
     void ScaleLevel(Vector3 lastScale)
     {
