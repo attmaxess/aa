@@ -285,6 +285,11 @@ PrefabInstance:
       propertyPath: _radius
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 7415542069750305544, guid: 5af5f29cef3d22448b72133334f7c170,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3802
+      objectReference: {fileID: 0}
     - target: {fileID: 7808559078830917608, guid: 5af5f29cef3d22448b72133334f7c170,
         type: 3}
       propertyPath: weaponType

@@ -247,7 +247,6 @@ MonoBehaviour:
   addedCharactorCount: 0
   startScale: {x: 0, y: 0, z: 0}
   isSnapAstar: 1
-  lastBalanceCenter: {x: 0, y: 0, z: 0}
   HasAnimMove: 1
   _hole: {fileID: 0}
   ignoreAttack: 0
@@ -614,6 +613,7 @@ MonoBehaviour:
   connections: []
   hint: {fileID: 0}
   focus: {fileID: 0}
+  glowImg: {fileID: 0}
 --- !u!1 &1325802951879388801
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,7 +728,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 3800
+  m_SortingOrder: 3802
   m_TargetDisplay: 0
 --- !u!95 &5573553217307384465
 Animator:

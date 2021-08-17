@@ -15,7 +15,7 @@ MonoBehaviour:
   totalCharactor: 0
   addedCharactorCount: 0
   startScale: {x: 0, y: 0, z: 0}
-  lastBalanceCenter: {x: 0, y: 0, z: 0}
+  isSnapAstar: 1
   HasAnimMove: 1
   _hole: {fileID: 0}
   ignoreAttack: 0

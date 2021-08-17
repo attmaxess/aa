@@ -700,7 +700,6 @@ MonoBehaviour:
   addedCharactorCount: 0
   startScale: {x: 0, y: 0, z: 0}
   isSnapAstar: 1
-  lastBalanceCenter: {x: 0, y: 0, z: 0}
   HasAnimMove: 1
   _hole: {fileID: 0}
   ignoreAttack: 0
@@ -712,6 +711,7 @@ MonoBehaviour:
   - {fileID: 4447783301545410406}
   - {fileID: 4735433153907001507}
   targetHole: {fileID: 0}
+  circle: {fileID: 0}
   listSlot:
   - {fileID: 0}
   - {fileID: 0}
@@ -1127,7 +1127,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 3800
+  m_SortingOrder: 3802
   m_TargetDisplay: 0
 --- !u!61 &6354891530161945176
 BoxCollider2D:
