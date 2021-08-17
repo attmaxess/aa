@@ -494,14 +494,28 @@ public class GameController : GameControllerBaseProperties
     }
     public void OnSkipLevelButtonClick()
     {
-        if (currentState == State.Menu || currentLevel.isWin || currentLevel.isLose) return;
+        if (currentState == State.Menu ||
+            currentLevel.isWin ||
+            currentLevel.isLose) return;
 
         Bridge.instance.ButtonSkipOffIn(currentLevelID);
         UIController.instance.popupLoadingAds.OnOpen(LoadingAdsPopup.LoadingVideoType.ButtonSkip);
         Bridge.instance.ShowRewardForSkipLevel(delegate
             {
-                SkipNewLevel();
-                UIController.instance.popupLoadingAds.OnClose();
+                if (CanSkipNewLevel())
+                {
+                    SkipNewLevel();
+                    UIController.instance.gamePlay.OnOpen();
+                    UIController.instance.popupLoadingAds.OnClose();
+                }
+                else
+                {
+                    UIController.instance.listLevel.OnOpen();
+                    TrashAll();
+                }
+
+                //SkipNewLevel();
+                //UIController.instance.popupLoadingAds.OnClose();
             }, currentLevelID);
     }
     public void WatchHint()
