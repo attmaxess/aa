@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -151,6 +152,17 @@ public class HealthController : HealthControllerBaseProperties
         }
         Color color = healthText.color;
         healthText.color = new Color(color.r, color.g, color.b, alpha);        
+    }
+    public void PlaceWhenFight()
+    {
+        HeadTowardController head = GetComponent<HeadTowardController>();
+        if (head == null) return;
+        if (int.Parse(healthText.text) <= 0) return;
+        Vector3 pos = healthPosition.transform.position;
+        if (head.Direction() == -1) pos += new Vector3(.3f, 0, 0);
+        else if (head.Direction() == 1) pos += new Vector3(-.3f, 0, 0);
+        healthText.transform.DOMove(pos, 0.2f);
+        healthText.transform.position = healthPosition.transform.position;
     }
     [ContextMenu("on")] public void SetOn() { animtor.SetBool("IsOn", true); }
     [ContextMenu("off")] public void SetOff() { animtor.SetBool("IsOn", false); }

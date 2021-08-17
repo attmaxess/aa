@@ -494,6 +494,9 @@ public class CharactorAIController : MammalAIController
 
         charactor.head.BothLookCenter(charactorAI, enemyAI);
 
+        charactor.healthController.PlaceWhenFight();
+        enemyAI?.healthController?.PlaceWhenFight();
+
         //yield return StartCoroutine(BalanceThenSolidify(enemyAI));
 
         bool enemyDead = false;
@@ -685,8 +688,8 @@ public class CharactorAIController : MammalAIController
     {
         if (other.attackable.princess != null) return;
         if (KhoBauTrap.IsKhoBauTrap(other.transform)) return;
-        hole.Place(charactor.skeletonController, -1);
-        hole.Place(other.skeletonController, 1);
+        hole.Place(charactor.skeletonController, -1);        
+        hole.Place(other.skeletonController, 1);        
     }
     IEnumerator BalanceThenSolidify(EnemyAIController enemyAI)
     {
