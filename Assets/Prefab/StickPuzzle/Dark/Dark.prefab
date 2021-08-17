@@ -644,6 +644,7 @@ MonoBehaviour:
   enemyIconPrefab: {fileID: 5025396300713310690, guid: b6aa2dd54802c498ca8dcb9ab502d370,
     type: 3}
   countdown: {fileID: 7390140598168330707}
+  _CountInt: 3
 --- !u!1 &7405123101597472939
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,7 +663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9221179288625684429
 RectTransform:
   m_ObjectHideFlags: 0
