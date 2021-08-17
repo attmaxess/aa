@@ -97,7 +97,16 @@ public class UIController : MonoBehaviour
     {
         menuObj.SetActive(true);
         ResetZoomSetting();
-        levelText.text = "Level " + "<color=#f1e870>" + (((SectionSettings.BiggestPlayLevel - 1) < 10 && (SectionSettings.BiggestPlayLevel - 1) > 0) ? "0" : "") + (SectionSettings.BiggestPlayLevel == SectionSettings.TotalLevel ? SectionSettings.BiggestPlayLevel : SectionSettings.BiggestPlayLevel - 1).ToString() + "</color>" + "/" + SectionSettings.TotalLevel;
+        levelText.text = "Level " + "<color=#f1e870>" +
+
+            (((SectionSettings.BiggestPlayLevel - 1) < 10 &&
+            (SectionSettings.BiggestPlayLevel - 1) > 0) ? "0" : "") +
+
+            (SectionSettings.BiggestPlayLevel == GameController.instance.GetTotalRealLevel() ?
+            SectionSettings.BiggestPlayLevel :
+            SectionSettings.BiggestPlayLevel - 1).ToString() + "</color>" + "/" +
+            GameController.instance.GetTotalRealLevel();
+
         GameController.instance.DestroyLevel();
         GameController.instance.levelAsync.Trash();
 

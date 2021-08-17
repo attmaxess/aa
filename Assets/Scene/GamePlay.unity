@@ -3638,6 +3638,7 @@ GameObject:
   - component: {fileID: 1119483236}
   - component: {fileID: 1119483235}
   - component: {fileID: 1119483237}
+  - component: {fileID: 1119483238}
   m_Layer: 0
   m_Name: LevelParent
   m_TagString: Untagged
@@ -3727,6 +3728,18 @@ MonoBehaviour:
   CaptureWays: 0
   CaptureScene: 0
   GameID: 0
+--- !u!114 &1119483238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119483233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f4d2d86a7ec47d8bdd525b2f56b19e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1141286292
 GameObject:
   m_ObjectHideFlags: 0
@@ -4365,7 +4378,7 @@ MonoBehaviour:
   swordShieldDataAsset: {fileID: 11400000, guid: 50fbc874bc6dec54b8eac082cff0c516,
     type: 2}
   unlockAllLevel: 0
-  GameID: 132
+  GameID: 57
   ResourceID: 11
   gameSO: {fileID: 11400000, guid: f1e7062e81de54ab0af556bbe2e96288, type: 2}
   DoneLoadLevel: 1
@@ -6854,7 +6867,7 @@ PrefabInstance:
     - target: {fileID: 7116664915887273545, guid: a02d7e9e57a8fe640ab948ea884685a7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 388.79996
+      value: 388.79993
       objectReference: {fileID: 0}
     - target: {fileID: 7116664915887273545, guid: a02d7e9e57a8fe640ab948ea884685a7,
         type: 3}
