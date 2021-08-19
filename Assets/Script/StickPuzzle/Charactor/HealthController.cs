@@ -157,7 +157,8 @@ public class HealthController : HealthControllerBaseProperties
     {
         HeadTowardController head = GetComponent<HeadTowardController>();
         if (head == null) return;
-        if (int.Parse(healthText.text) <= 0) return;
+        int.TryParse(healthText.text, out int intHealth);
+        if (intHealth <= 0) return;
         Vector3 pos = healthPosition.transform.position;
         if (head.Direction() == -1) pos += new Vector3(.3f, 0, 0);
         else if (head.Direction() == 1) pos += new Vector3(-.3f, 0, 0);

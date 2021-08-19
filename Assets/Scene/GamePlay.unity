@@ -4378,7 +4378,7 @@ MonoBehaviour:
   swordShieldDataAsset: {fileID: 11400000, guid: 50fbc874bc6dec54b8eac082cff0c516,
     type: 2}
   unlockAllLevel: 0
-  GameID: 81
+  GameID: 41
   ResourceID: 11
   gameSO: {fileID: 11400000, guid: f1e7062e81de54ab0af556bbe2e96288, type: 2}
   DoneLoadLevel: 1
