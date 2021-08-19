@@ -37,7 +37,7 @@ public class Pillar : PillarBaseProperties
         set { this._eskin = value; HandleSkin(value); }
     }
     [SerializeField] eSkin _eskin = eSkin.fine;
-    
+
     public PillarTouchController touchController
     {
         get
@@ -68,6 +68,9 @@ public class Pillar : PillarBaseProperties
     public List<Barrier> connectedBarriers;
 
     public Animator animtor = null;
+
+    bool DoneFinishMove = true;
+    Coroutine coFinishMove;
 
     public void AddOncePillar(Pillar pillar)
     {
@@ -196,17 +199,32 @@ public class Pillar : PillarBaseProperties
 
     public void FinishMove()
     {
-        StartCoroutine(C_FinishMove());
+        if (coFinishMove != null)
+        {
+            StopCoroutine(coFinishMove);
+            coFinishMove = null;
+        }
+
+        if (!DoneFinishMove)
+            DoneFinishMove = true;
+
+        coFinishMove = StartCoroutine(C_FinishMove());
     }
     IEnumerator C_FinishMove()
     {
+        DoneFinishMove = false;
+
         manager.ToogleOffFocusMode();
 
         if (lastFinishWhenMoving == null ||
-            currentMoveLine.lineController.linetransforms[0].gameObject == manager.m_DraggingIcon ||
-            currentMoveLine.lineController.linetransforms[1].gameObject == manager.m_DraggingIcon)
+            currentMoveLine.lineController.linetransforms[0].gameObject ==
+            manager.m_DraggingIcon ||
+            currentMoveLine.lineController.linetransforms[1].gameObject ==
+            manager.m_DraggingIcon)
         {
-            currentMoveLine.lineController.ReplacePositionByTransformAt(manager.saveMovePillar.GetComponent<RectTransform>(), manager.saveMovePillarID);
+            currentMoveLine.lineController.ReplacePositionByTransformAt(
+                manager.saveMovePillar.GetComponent<RectTransform>(),
+                manager.saveMovePillarID);
         }
 
         Barrier barrier = currentMoveLine.GetComponent<Barrier>();
@@ -225,9 +243,16 @@ public class Pillar : PillarBaseProperties
         status = ePillarStatus.idle;
 
         manager.SyncDataFromScene();
+        yield return new WaitForEndOfFrame();
+        yield return new WaitUntil(() =>
+        manager.barriers.Find((x) => x.OnPostCollider.DoneUpdateAsync == false) == null &&
+        manager.barriers.Find((x) => x.OnDragCollider.DoneUpdateAsync == false) == null);
 
         if (manager.afterFinish_DrawingOrMoving != null)
             manager.afterFinish_DrawingOrMoving.Invoke(true, true);
+
+        DoneFinishMove = true;
+        coFinishMove = null;
 
         yield break;
     }

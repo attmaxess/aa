@@ -79,6 +79,7 @@ public class PillarManager : LevelController, iLevelController
     {
         #region Moving pillars write code here
         if (Input.GetMouseButton(0))
+        //Co click
         {
             if (CanUserPlay())
             ///Lúc này chưa có điểm bắt đầu
@@ -228,6 +229,8 @@ public class PillarManager : LevelController, iLevelController
                         {
                             saveMovePillar.lastFinishWhenMoving = pillarHit;
                             saveMovePillar.FinishMove();
+                            if (level.useDebugLog)
+                                Debug.Log("Cham pillar moi");
 
                             if (m_DraggingIcon.gameObject.activeSelf)
                                 m_DraggingIcon.gameObject.SetActive(false);
@@ -237,6 +240,8 @@ public class PillarManager : LevelController, iLevelController
                         ///Chạm 1 trong 2 Pillar đầu, hoặc chạm Pillar đã có dây
                         {
                             saveMovePillar.FinishMove();
+                            if (level.useDebugLog)
+                                Debug.Log("Cham 1 trong 2 pillar dau hoac pillar co day");
 
                             if (m_DraggingIcon.gameObject.activeSelf)
                                 m_DraggingIcon.gameObject.SetActive(false);
@@ -257,6 +262,9 @@ public class PillarManager : LevelController, iLevelController
                     if (saveMovePillar != null)
                     {
                         saveMovePillar.FinishMove();
+                        if (level.useDebugLog)
+                            Debug.Log("Tha chuot ngoai pillar");
+
                         saveMovePillar = null;
                     }
 
@@ -298,8 +306,16 @@ public class PillarManager : LevelController, iLevelController
             pillar.SyncDataFromBarrierOnScene();
         foreach (Barrier barrier in barriers)
         {
-            barrier.OnPostCollider.UpdateCollider();
-            barrier.OnDragCollider.UpdateCollider();
+            if (!Application.isPlaying)
+            {
+                barrier.OnPostCollider.UpdateCollider();
+                barrier.OnDragCollider.UpdateCollider();
+            }
+            else
+            {
+                barrier.OnPostCollider.UpdateAsyncCollider();
+                barrier.OnDragCollider.UpdateAsyncCollider();
+            }
         }
     }
     public bool CanUserPlay()

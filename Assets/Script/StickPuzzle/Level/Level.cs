@@ -125,6 +125,7 @@ public class Level : BaseLevelProperties
     public List<NodeViewData> nodesToView = new List<NodeViewData>();
 
     Coroutine coAstarScan;
+    Coroutine coPokeAllMammals;
 
     public bool DonePokeAllMammals = true;
     [HideInInspector]
@@ -888,7 +889,16 @@ public class Level : BaseLevelProperties
     [ContextMenu("PokeAllEnemiesAI")]
     public void PokeAllEnemiesAI()
     {
-        StartCoroutine(C_PokeAllEnemiesAI());
+        if (coPokeAllMammals != null)
+        {
+            StopCoroutine(coPokeAllMammals);
+            coPokeAllMammals = null;
+        }
+
+        if (!DonePokeAllMammals)
+            DonePokeAllMammals = true;
+
+        coPokeAllMammals = StartCoroutine(C_PokeAllEnemiesAI());
     }
     public IEnumerator C_PokeAllEnemiesAI()
     {
@@ -926,6 +936,8 @@ public class Level : BaseLevelProperties
         }
 
         DonePokeAllMammals = true;
+        coPokeAllMammals = null;
+
         yield break;
     }
     public bool IsAllEnemyAIAstarStop()
@@ -1213,8 +1225,10 @@ public class Level : BaseLevelProperties
 
         if (poke)
         {
-            yield return StartCoroutine(C_PokeAllEnemiesAI());
-            yield return new WaitUntil(() => DonePokeAllMammals == true);
+            PokeAllEnemiesAI();
+            yield return new WaitForEndOfFrame();
+            yield return new WaitUntil(() => DonePokeAllMammals == true
+            && coPokeAllMammals == null);
         }
 
         bool mustWait = true;
